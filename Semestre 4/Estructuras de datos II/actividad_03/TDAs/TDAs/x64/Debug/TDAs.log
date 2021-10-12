@@ -1,0 +1,3 @@
+﻿  TDAs.cpp
+D:\Universidad\Semestre 4\Estructura de datos II\TDAs\TDAs\Producto.h(62,28): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Universidad\Semestre 4\Estructura de datos II\TDAs\TDAs\Lista.h(261): error C4703: posiblemente se utilizó la variable de puntero local 'Ant' sin inicializar

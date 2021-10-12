@@ -1,0 +1,52 @@
+\usepackage{times}
+\usepackage[spanish, activeacute]{babel}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref} 
+\pagestyle{empty}
+\setlength{\textheight}{8.75in}
+\setlength{\columnsep}{2.0pc}
+\setlength{\textwidth}{6.8in}
+\setlength{\topmargin}{0.25in}
+\setlength{\headheight}{0.0in}
+\setlength{\headsep}{0.0in}
+\setlength{\oddsidemargin}{-.19in}
+\setlength{\parindent}{1pc}
+\makeatletter
+\def\@normalsize{\@setsize\normalsize{12pt}\xpt\@xpt
+\abovedisplayskip 10pt plus2pt minus5pt\belowdisplayskip \abovedisplayskip
+\abovedisplayshortskip \z@ plus3pt\belowdisplayshortskip 6pt plus3pt
+minus3pt\let\@listi\@listI} 
+\def\subsize{\@setsize\subsize{12pt}\xipt\@xipt}
+\def\section{\@startsection {section}{1}{\z@}{24pt plus 2pt minus 2pt}
+{12pt plus 2pt minus 2pt}{\large\bf}}
+\def\subsection{\@startsection {subsection}{2}{\z@}{12pt plus 2pt minus 2pt}
+{12pt plus 2pt minus 2pt}{\subsize\bf}}
+\makeatother
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+   % backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
